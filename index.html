@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <!-- WebCraft Brand & Favicon -->
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAICUlEQVR4nHWXSYxcVxWGv3PfUFNXz+7BAxYeYpIOyLGtgJFQQCHggBI2LIgQO3YIgVigsISEDRIS7NnAhg2IIZGiLGIlceTEDk6ISdpEFvFEt52229Vd1TW84d7D4g31OhKv9N6re1/VO/8557/n/FcWlg+pMYKIIMZgxCDlmc0bYxAj5ZwRAREEULKLoqhzqGp5OqeoFnMO52x+1/LuI5SHlFcprwWI4mPyMcUztASBGMCVgERAdfx2EQElnxdEFF+qD4XSIJUxVOYpvJccsVR9AASVbFbz/2mGqPwvqiUIf+z52G92jSvxEMlShMlehFZCp5n3ZJ6BIC6LjqiAKKigFRBABmBsd7cvZUSMhzEeRvzdHMkBqIKKQ3E4LIjFqQVRRAUVBZeDIMdChsMvjarstl/kGR/UgDPgeaAeYMBloc4hZL/BZoZUAcWIYsWVgULHQSsOP6fL2LbmniMY8QFDsz7DVGOWhtei4dWpm5CaCQhNAIC1lsQlxDYmSof0kz73R/foxh1MHpf/d/hVoyioaMF3VIWJ+hx16gw7W0R2myEhbX+CmBB1eVRFcVhGdkRERCop7bCFCTw68QYGg8V+0nkUxc9saz4s+CSoCk1vAh0lbI7uUTMNml6TiWCCTn+Ldtji9PTnUZR/di+zGd9DjDAY9YlchPqWVtBmImjT1c6u7GolJT6qkKetXA0iePiEqc9Wsonv1RBj2I66fOfhp/hs/RSXb11h0m/QTTqcaJ3kivmQ68PrPHDgBFYT3rl5nsRtMuXm8Dw/I2WFDJqjMCUi1aKkAAbPeSRJjFWLtZZROmSxuczZyxdxYjgx+zQfbU4QTB2EKcWPZnnyyLf5+bee56uf+R6n5x8nJiJNY3zrZyzTfMVoEQnFFCzW/GkWCYO6rJQ6pzhSFhuHODzzCAtzx3ju3K+5mtwirs8TRS0+3XoCN1dnyX+MN859zB/P/obrOx+AGFKXggNRkwPQT0QgN6qqOM0XaM4BECI7ouVPcuaB79KJlGv9NWYaS/zlw79yq95ho9bm5fX7LB36Oufu3+TszTc5XlthM77LIBlkhSd/J0Wkdey2GTNzTMSMloZUQbH0oxGr17bYStZ5fOU4P/3K8xxuHOdK51UuTHZpHm7RGdYJ56e51rnIRztDLD4qljR/H0UKGDerkoRa/qgITza2ojjnSEPwTkY86B/i6qUW7tBNTp7Zz9LmM1w6GTPd2Ef3pVt8cPUFDk22WJ4/wOp/UlQhhbzj5Wst51oBwlTbp1bTAVgcSTLi6Nd+xmj+Qf724u+5Vtvhpavn+ft7G3Qf2I9swgsvvsLrg3Ns9W7xysafCeYe4okjz5ImEdaARXbZKLiuKDK3cECL7mfEYKRG4LUwUsc6R69/AyYPs+ep72PCO0xeP8D999/HzM4yu/JlosEOHfMBnF9lZeoEm1+4R3tjD1df+x09d4124yC+8XAMiWyfVOOKRlD8ghCVBGRiQRwWhzqLn2yha126vSvUD04wffoMveENugd3cJ4SvhHw0JFnCOqrXPnXh6Smxcjv4SKLFYfB4FR3Lb9PACgaUVXRWJxothxDob6yiFk7xVZnnbAxIFk+hjz9KNId0nh3g7XBW4z6H7OndYzap/Zgb4AOFcXiMFi0dG7clRSZntunpcQSgycBntdAvJBEldHObVQM3sJhGqe+iX/0EZxExOvv03pwH2YnIV5dw5+ZQ4cecnudwepZht2PMKo0m4v4EmB1hLVDrCZ5CjJnTVmE8rtTl6F2FiGrDeIHpPeu03v9DwxWXyY9tYL/gx8S/3ubwdoA/yc/Rh57nJ1bF9h8708M+jcQLyzbj9U0i2jufZXsMjW7VzO5RUZEPDyvgSJ44RQ7/TUwHlJrgPFxVjEHDxM++yMWl5ZwqdK5fZvBr36Lrt9AjEKaoMkI0pTpxj6itIeIw9oRii29d6rI5MyylsJTQPAwXph3xiwVvfg2XthGak1oTQI+VoXZ0ydBlftvXsI3Cpqigx4a9UnjHjPBXjRNSGWEQbEuzgGM1bK0Z5ayoluR4SI+nhcwGvVpBEs05vfSSe+iQYC0ppHJGaQ9hY0tqOLVfLS3jW7fh8E2ksTMBAuMNtbpp3eo19tYG6Oa7sq/quIXIqBoElmDdDhrCcI6O8P/wrahPjNP7AtSayK1AAkgnGojIqSDAVoL0foEYoXQc0SdDbqjNerNFs7GqLMohfGi8SvSnl7SQgMUilbEZHJMPJw6hoMeNknB9xEjWOswxpAmKSQxQbNR9BnsKAK1YAwzcwtZfVGHqs3PohY4FLI6UKjkQqtTqFunBGHI1PIBxDNEcUJ/MGR2bpZut8fCwh4O7N/PxbcvgSpBEHD8cw/jex4icPGtC9g0ASkASL4KKpuXianFSgSqkSBHZDjzjSdZXt7LYDAElLBWp7O1zZe++ChvnL/AsWNHCXyf5eUlUMc7715mfm6a537xSyZaDawrPC8KEeNlODG1oOV2rBRu2XdjDKMoYuWhh2k0WxgjNJstrHOowvT0FO2JNnc+vsP+fXuZnZvl1bOvcffeXRYXF3jnH2/TaDZwLhc7jI0X9UBakwuaGTalEij2BAgYEeIkKdWSMSZvXEKcpAS+j7XZ0kqtJQx8PM/DOUsQhDhXKb3jRpiXfZDW5KKSbySr29NKODKjRb8ouEIGrmhmRdScG+8+MuNU9KaUBCy++8WmIHuRqxjKu6SYihdSISpYdh+628UyzONhVfhmz/8HlvXdsOBJYboAAAAASUVORK5CYII=">
+  <link rel="apple-touch-icon" href="data:image/png;base64,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">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Flow // ADHD Study Companion</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fonts: Lexend (ADHD-friendly reading) & Syne (Modern headings) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Canvas Confetti for dopamine wins -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Lexend', 'sans-serif'],
+                        display: ['Syne', 'sans-serif'],
+                        mono: ['JetBrains Mono', 'monospace'],
+                    },
+                    colors: {
+                        cozy: {
+                            950: '#0F0F15',
+                            900: '#14141F',
+                            800: '#1E1E2E',
+                            700: '#2A2A3F',
+                            600: '#3D3D5C',
+                            slate: '#A9B1D6',
+                            lavender: '#C0CAF5',
+                            peach: '#FF9E64',
+                            sage: '#9ECE6A',
+                            mint: '#73DACA',
+                            berry: '#F7768E',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Smooth transitions */
+        .tab-transition {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        /* Breathing bubble animation */
+        @keyframes breathe {
+            0%, 100% { transform: scale(1); background-color: rgba(115, 218, 202, 0.2); box-shadow: 0 0 20px rgba(115, 218, 202, 0.2); }
+            50% { transform: scale(1.4); background-color: rgba(115, 218, 202, 0.5); box-shadow: 0 0 40px rgba(115, 218, 202, 0.6); }
+        }
+        .breathing-bubble {
+            animation: breathe 8s infinite ease-in-out;
+        }
+
+        /* Ambient grain overlay */
+        .noise-bg {
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3联%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+            opacity: 0.015;
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #14141F;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #2A2A3F;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #3D3D5C;
+        }
+    </style>
+</head>
+<body class="bg-cozy-950 text-cozy-lavender font-sans h-full flex flex-col overflow-hidden relative selection:bg-cozy-peach/30 selection:text-cozy-peach">
+    <div class="absolute inset-0 noise-bg pointer-events-none z-50"></div>
+
+    <!-- Header Navigation -->
+    <header class="border-b border-cozy-800 bg-cozy-900/80 backdrop-blur-md px-6 py-4 flex flex-col sm:flex-row justify-between items-center gap-4 shrink-0 relative z-10">
+        <div class="flex items-center gap-3">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cozy-peach to-cozy-berry flex items-center justify-center text-cozy-950 font-display font-extrabold text-xl shadow-lg shadow-cozy-peach/10">
+                ⚡
+            </div>
+            <div>
+                <h1 class="font-display font-extrabold text-lg tracking-wide text-white flex items-center gap-2">
+                    FOCUS FLOW <span class="text-xs font-mono font-normal px-2 py-0.5 rounded-full bg-cozy-800 text-cozy-peach border border-cozy-700">ADHD System</span>
+                </h1>
+                <p class="text-xs text-cozy-slate">Work with your brain chemistry, not against it.</p>
+            </div>
+        </div>
+
+        <!-- Custom Workspace State Indicator -->
+        <div class="flex items-center gap-4">
+            <label class="flex items-center gap-2 bg-cozy-800/60 hover:bg-cozy-800 border border-cozy-700/50 rounded-full px-4 py-2 cursor-pointer transition text-xs text-cozy-slate select-none">
+                <input type="checkbox" id="deskCheck" onchange="toggleWorkspaceStatus()" class="w-4 h-4 rounded border-cozy-600 text-cozy-mint focus:ring-0 focus:ring-offset-0 bg-cozy-950">
+                <span>Workspace Cleaned?</span>
+            </label>
+            <div id="workspaceBadge" class="hidden text-xs bg-cozy-mint/10 text-cozy-mint border border-cozy-mint/20 px-3 py-2 rounded-full font-semibold animate-pulse">
+                ✨ Focus Shield Active
+            </div>
+        </div>
+    </header>
+
+    <!-- App Wrapper -->
+    <div class="flex flex-1 overflow-hidden">
+        <!-- Sidebar Navigation -->
+        <aside class="w-64 border-r border-cozy-800 bg-cozy-900/40 shrink-0 hidden md:flex flex-col justify-between p-4 overflow-y-auto">
+            <div class="space-y-6">
+                <div class="space-y-1">
+                    <p class="text-[10px] font-mono tracking-widest text-cozy-slate uppercase px-3 mb-2">Modes</p>
+                    <button onclick="switchTab('wizard')" id="nav-wizard" class="w-full flex items-center gap-3 px-3 py-3 rounded-xl bg-cozy-800 text-white font-medium text-sm transition group border border-cozy-700/40">
+                        <i data-lucide="compass" class="w-4 h-4 text-cozy-peach group-hover:rotate-12 transition"></i>
+                        <span>1. Session Setup</span>
+                    </button>
+                    <button onclick="switchTab('focus')" id="nav-focus" class="w-full flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-cozy-800/50 text-cozy-slate hover:text-white font-medium text-sm transition group border border-transparent">
+                        <i data-lucide="zap" class="w-4 h-4 text-cozy-mint group-hover:scale-110 transition"></i>
+                        <span>2. Deep Work Engine</span>
+                    </button>
+                    <button onclick="switchTab('cbt')" id="nav-cbt" class="w-full flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-cozy-800/50 text-cozy-slate hover:text-white font-medium text-sm transition group border border-transparent">
+                        <i data-lucide="brain-circuit" class="w-4 h-4 text-cozy-berry group-hover:translate-x-0.5 transition"></i>
+                        <span>3. Distress Rescue (CBT)</span>
+                    </button>
+                </div>
+
+                <div class="space-y-1">
+                    <p class="text-[10px] font-mono tracking-widest text-cozy-slate uppercase px-3 mb-2">History</p>
+                    <button onclick="switchTab('reflection')" id="nav-reflection" class="w-full flex items-center gap-3 px-3 py-3 rounded-xl hover:bg-cozy-800/50 text-cozy-slate hover:text-white font-medium text-sm transition group border border-transparent">
+                        <i data-lucide="calendar" class="w-4 h-4 text-cozy-lavender"></i>
+                        <span>Nightly Wins</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Anchor Preview Card (Shows user's current goals dynamically) -->
+            <div id="pinnedAnchorCard" class="bg-cozy-800/40 border border-cozy-700/50 p-4 rounded-2xl hidden transition-all">
+                <p class="text-[10px] font-mono tracking-widest text-cozy-peach uppercase mb-2">Active Target</p>
+                <div class="space-y-2">
+                    <div>
+                        <span class="text-[10px] text-cozy-slate block">TOPIC:</span>
+                        <span id="pinnedTopic" class="text-xs text-white font-medium">None</span>
+                    </div>
+                    <div>
+                        <span class="text-[10px] text-cozy-slate block">QUESTION TO ANSWER:</span>
+                        <p id="pinnedQuestion" class="text-xs text-cozy-lavender italic">No active session.</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Panel -->
+        <main class="flex-1 overflow-y-auto p-4 md:p-8 flex flex-col justify-between relative">
+            <div class="max-w-4xl w-full mx-auto space-y-8">
+                
+                <!-- TAB 1: GUIDED SESSION SETUP (WIZARD) -->
+                <div id="tab-wizard" class="tab-pane space-y-6">
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <span class="text-xs font-mono text-cozy-peach">STEP-BY-STEP FLOW</span>
+                            <h2 class="text-2xl md:text-3xl font-display font-extrabold text-white mt-1">Get Ready Without Stress</h2>
+                        </div>
+                        <span class="text-xs font-mono text-cozy-slate bg-cozy-900 border border-cozy-800 px-3 py-1.5 rounded-full">
+                            Step <span id="currentStepText">1</span> of 5
+                        </span>
+                    </div>
+
+                    <!-- Progress Bar -->
+                    <div class="w-full h-2 bg-cozy-900 rounded-full overflow-hidden border border-cozy-800">
+                        <div id="wizardProgressBar" class="h-full bg-gradient-to-r from-cozy-peach via-cozy-berry to-cozy-mint transition-all duration-300" style="width: 20%"></div>
+                    </div>
+
+                    <!-- WIZARD STEP 1: Pre-Study Reset -->
+                    <div id="step-1-content" class="wizard-step bg-cozy-900/50 border border-cozy-800 rounded-3xl p-6 md:p-8 space-y-8">
+                        <div class="flex flex-col lg:flex-row gap-8 items-center justify-between">
+                            <div class="space-y-4 max-w-lg">
+                                <div class="inline-flex items-center gap-2 bg-cozy-mint/10 text-cozy-mint px-3 py-1 rounded-full text-xs font-semibold">
+                                    <i data-lucide="wind" class="w-3.5 h-3.5"></i> Step 1: Pre-Study Reset (2 Mins)
+                                </div>
+                                <h3 class="text-xl font-semibold text-white">Quiet the cognitive clutter</h3>
+                                <p class="text-sm text-cozy-slate leading-relaxed">
+                                    Before looking at study material, your brain needs to clear old momentum. We use a gentle physical focus point and an verbal reset.
+                                </p>
+                                <div class="bg-cozy-800/40 p-4 rounded-2xl border border-cozy-700/50">
+                                    <span class="text-[10px] font-mono text-cozy-peach block mb-1">YOUR SAFETY SHIELD VERBAL STATEMENT</span>
+                                    <p class="text-base font-medium text-white italic">“I am not studying for long. Just 5 minutes.”</p>
+                                </div>
+                            </div>
+                            <div class="flex flex-col items-center justify-center shrink-0">
+                                <div class="w-40 h-40 rounded-full flex items-center justify-center relative">
+                                    <div class="absolute inset-0 rounded-full breathing-bubble"></div>
+                                    <div class="z-10 text-center">
+                                        <p class="text-2xl font-bold text-white tracking-widest font-display" id="breatheText">Breathe</p>
+                                        <p class="text-xs text-cozy-mint/80 font-mono mt-1" id="breatheTimer">2:00</p>
+                                    </div>
+                                </div>
+                                <button id="breatheBtn" onclick="toggleBreathing()" class="mt-6 px-4 py-2 bg-cozy-800 hover:bg-cozy-700 text-cozy-mint font-semibold text-xs rounded-full border border-cozy-mint/20 transition-all">
+                                    Start Breathing Aid
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Checklists to activate Starting Circuit -->
+                        <div class="border-t border-cozy-800 pt-6">
+                            <p class="text-xs font-semibold text-white mb-4">Complete these three low-resistance actions:</p>
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
+                                <label class="flex items-center gap-3 bg-cozy-800/30 hover:bg-cozy-800/60 p-4 rounded-2xl border border-cozy-700/30 cursor-pointer transition select-none">
+                                    <input type="checkbox" onchange="checkStep1Progress()" class="step1-check w-5 h-5 rounded text-cozy-mint focus:ring-0 focus:ring-offset-0 bg-cozy-950 border-cozy-700">
+                                    <span class="text-xs text-cozy-lavender">Say safety shield statement aloud</span>
+                                </label>
+                                <label class="flex items-center gap-3 bg-cozy-800/30 hover:bg-cozy-800/60 p-4 rounded-2xl border border-cozy-700/30 cursor-pointer transition select-none">
+                                    <input type="checkbox" onchange="checkStep1Progress()" class="step1-check w-5 h-5 rounded text-cozy-mint focus:ring-0 focus:ring-offset-0 bg-cozy-950 border-cozy-700">
+                                    <span class="text-xs text-cozy-lavender">Open notes, book, or materials</span>
+                                </label>
+                                <label class="flex items-center gap-3 bg-cozy-800/30 hover:bg-cozy-800/60 p-4 rounded-2xl border border-cozy-700/30 cursor-pointer transition select-none">
+                                    <input type="checkbox" onchange="checkStep1Progress()" class="step1-check w-5 h-5 rounded text-cozy-mint focus:ring-0 focus:ring-offset-0 bg-cozy-950 border-cozy-700">
+                                    <span class="text-xs text-cozy-lavender">Visualize finishing just a tiny subpart</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- WIZARD STEP 2: The 5-Minute Launch -->
+                    <div id="step-2-content" class="wizard-step bg-cozy-900/50 border border-cozy-800 rounded-3xl p-6 md:p-8 space-y-6 hidden">
+                        <div class="space-y-4">
+                            <div class="inline-flex items-center gap-2 bg-cozy-peach/10 text-cozy-peach px-3 py-1 rounded-full text-xs font-semibold">
+                                <i data-lucide="zap" class="w-3.5 h-3.5"></i> Step 2: 5-Minute Launch
+                            </div>
+                            <h3 class="text-xl font-semibold text-white">Action overrides motivation. Just drop in.</h3>
+                            <p class="text-sm text-cozy-slate">
+                                Don't wait to "feel" like studying. Set the timer and move your pencil/eyes. Perfection is completely banned for the next 300 seconds.
+                            </p>
+                        </div>
+
+                        <!-- 5 Minute Timer Unit -->
+                        <div class="bg-cozy-800/30 border border-cozy-700/50 rounded-2xl p-8 flex flex-col items-center justify-center text-center space-y-6">
+                            <div class="text-6xl font-mono font-bold tracking-tight text-white" id="launchTimerDisplay">
+                                05:00
+                            </div>
+                            
+                            <div class="flex gap-3">
+                                <button onclick="toggleLaunchTimer()" id="launchTimerBtn" class="px-6 py-2.5 bg-cozy-peach text-cozy-950 font-bold rounded-full text-xs shadow-lg shadow-cozy-peach/15 hover:scale-105 transition-all flex items-center gap-2">
+                                    <i data-lucide="play" class="w-4 h-4"></i> Start Launch Window
+                                </button>
+                                <button onclick="resetLaunchTimer()" class="px-4 py-2.5 bg-cozy-800 hover:bg-cozy-700 text-cozy-slate font-semibold rounded-full text-xs transition flex items-center gap-1">
+                                    <i data-lucide="rotate-ccw" class="w-3.5 h-3.5"></i> Reset
+                                </button>
+                            </div>
+
+                            <p class="text-xs text-cozy-slate font-mono italic">ADHD engines run on inertia. Once we move, we stick.</p>
+                        </div>
+                    </div>
+
+                    <!-- WIZARD STEP 3: Visual Anchoring -->
+                    <div id="step-3-content" class="wizard-step bg-cozy-900/50 border border-cozy-800 rounded-3xl p-6 md:p-8 space-y-6 hidden">
+                        <div class="space-y-4">
+                            <div class="inline-flex items-center gap-2 bg-cozy-berry/10 text-cozy-berry px-3 py-1 rounded-full text-xs font-semibold">
+                                <i data-lucide="anchor" class="w-3.5 h-3.5"></i> Step 3: Visual Anchor Builder
+                            </div>
+                            <h3 class="text-xl font-semibold text-white">Create highly specific targets</h3>
+                            <p class="text-sm text-cozy-slate">
+                                ADHD brains drift without an explicit track. Fill this in so your working memory has an emergency target to look back at.
+                            </p>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <div class="space-y-2">
+                                <label class="text-xs font-mono text-cozy-slate block">1. WHAT IS THE TOPIC?</label>
+                                <input type="text" id="anchorTopic" placeholder="e.g., Photosynthesis Phase 1" class="w-full bg-cozy-950 border border-cozy-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-cozy-peach transition">
+                            </div>
+                            <div class="space-y-2">
+                                <label class="text-xs font-mono text-cozy-slate block">2. SESSION TARGET GOAL</label>
+                                <input type="text" id="anchorGoal" placeholder="e.g., Draw the cycle diagram" class="w-full bg-cozy-950 border border-cozy-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-cozy-peach transition">
+                            </div>
+                            <div class="space-y-2">
+                                <label class="text-xs font-mono text-cozy-slate block">3. THE SINGLE GUIDING QUESTION</label>
+                                <input type="text" id="anchorQuestion" placeholder="e.g., What triggers chlorophyll activation?" class="w-full bg-cozy-950 border border-cozy-700 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-cozy-peach transition">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- WIZARD STEP 4: Action Loop Planner -->
+                    <div id="step-4-content" class="wizard-step bg-cozy-900/50 border border-cozy-800 rounded-3xl p-6 md:p-8 space-y-6 hidden">
+                        <div class="space-y-4">
+                            <div class="inline-flex items-center gap-2 bg-cozy-lavender/10 text-cozy-lavender px-3 py-1 rounded-full text-xs font-semibold">
+                                <i data-lucide="refresh-cw" class="w-3.5 h-3.5"></i> Step 4: Habit Loop Setup
+                            </div>
+                            <h3 class="text-xl font-semibold text-white">Set your trigger and reward</h3>
+                            <p class="text-sm text-cozy-slate">
+                                Pair your effort with automated loops. What physical cue triggers the routine, and what quick dopamine reward will you claim?
+                            </p>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <div class="bg-cozy-800/40 p-5 rounded-2xl border border-cozy-700/50 space-y-3">
+                                <span class="text-xs font-mono text-cozy-peach block">CUE (Visual Trigger)</span>
+                                <input type="text" id="loopCue" value="Sit at desk, put on lofi playlist" class="w-full bg-cozy-950 border border-cozy-700 rounded-xl px-3 py-2 text-xs text-white focus:outline-none focus:border-cozy-peach">
+                            </div>
+                            <div class="bg-cozy-800/40 p-5 rounded-2xl border border-cozy-700/50 space-y-3">
+                                <span class="text-xs font-mono text-cozy-mint block">ROUTINE (Micro Effort)</span>
+                                <input type="text" id="loopRoutine" value="Start 5-min timer & focus only on questions" class="w-full bg-cozy-950 border border-cozy-700 rounded-xl px-3 py-2 text-xs text-white focus:outline-none focus:border-cozy-mint">
+                            </div>
+                            <div class="bg-cozy-800/40 p-5 rounded-2xl border border-cozy-700/50 space-y-3">
+                                <span class="text-xs font-mono text-cozy-berry block">REWARD (Dopamine hit)</span>
+                                <input type="text" id="loopReward" value="Stand, trace a sketch, or play favorite track" class="w-full bg-cozy-950 border border-cozy-700 rounded-xl px-3 py-2 text-xs text-white focus:outline-none focus:border-cozy-berry">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- WIZARD STEP 5: ADHD Study Structure Options -->
+                    <div id="step-5-content" class="wizard-step bg-cozy-900/50 border border-cozy-800 rounded-3xl p-6 md:p-8 space-y-6 hidden">
+                        <div class="space-y-4">
+                            <div class="inline-flex items-center gap-2 bg-cozy-mint/10 text-cozy-mint px-3 py-1 rounded-full text-xs font-semibold">
+                                <i data-lucide="layers" class="w-3.5 h-3.5"></i> Step 5: Structuring Strategy
+                            </div>
+                            <h3 class="text-xl font-semibold text-white">Prevent mental burnout</h3>
+                            <p class="text-sm text-cozy-slate">
+                                ADHD brains require freshness. To block sensory overload, structure work in digestible shifts rather than long, endless blocks.
+                            </p>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div class="bg-cozy-800/20 border border-cozy-800 p-5 rounded-2xl flex gap-4">
+                                <div class="text-3xl">⏱️</div>
+                                <div>
+                                    <h4 class="text-sm font-semibold text-white mb-1">Pomodoro Strategy</h4>
+                                    <p class="text-xs text-cozy-slate leading-relaxed">25–30 minutes focus with strict 5-minute movement breaks. Stand up. Sip water. Don't sit scrolling.</p>
+                                </div>
+                            </div>
+                            <div class="bg-cozy-800/20 border border-cozy-800 p-5 rounded-2xl flex gap-4">
+                                <div class="text-3xl">🔀</div>
+                                <div>
+                                    <h4 class="text-sm font-semibold text-white mb-1">Subject Rotation</h4>
+                                    <p class="text-xs text-cozy-slate leading-relaxed">Rotate topics when the focus wanes. Let's register a list of subjects to cycle to keep the brain engaged.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-cozy-800/40 border border-cozy-700/40 rounded-2xl p-5 space-y-4">
+                            <h4 class="text-xs font-mono text-white">NOVELTY SUBJECT ROTATOR LIST</h4>
+                            <div class="flex gap-2">
+                                <input type="text" id="subjectInput" placeholder="Add a focus subject (e.g., Biology)" class="flex-1 bg-cozy-950 border border-cozy-700 rounded-xl px-4 py-2 text-xs text-white focus:outline-none">
+                                <button onclick="addSubject()" class="px-4 py-2 bg-cozy-800 hover:bg-cozy-700 text-white font-semibold text-xs rounded-xl border border-cozy-700 transition">
+                                    + Add
+                                </button>
+                            </div>
+                            <div id="subjectList" class="flex flex-wrap gap-2 min-h-[40px] items-center">
+                                <!-- Dynamically added tags -->
+                                <span class="text-xs text-cozy-slate italic">No subjects added yet. Add some for randomized choice.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Wizard Control Panel -->
+                    <div class="flex justify-between items-center border-t border-cozy-800 pt-6">
+                        <button id="prevBtn" onclick="prevStep()" class="px-5 py-2.5 bg-cozy-800 hover:bg-cozy-700 text-cozy-slate font-semibold text-xs rounded-xl transition border border-cozy-700/30 flex items-center gap-1 opacity-50 cursor-not-allowed" disabled>
+                            <i data-lucide="arrow-left" class="w-4 h-4"></i> Back
+                        </button>
+
+                        <button id="nextBtn" onclick="nextStep()" class="px-6 py-2.5 bg-cozy-peach text-cozy-950 font-bold text-xs rounded-xl shadow-lg shadow-cozy-peach/10 hover:scale-102 transition flex items-center gap-1">
+                            <span>Continue to Step 2</span> <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- TAB 2: ACTIVE DEEP WORK ENGINE -->
+                <div id="tab-focus" class="tab-pane space-y-6 hidden">
+                    <div class="space-y-1">
+                        <span class="text-xs font-mono text-cozy-mint">ENGINE MODULE</span>
+                        <h2 class="text-2xl md:text-3xl font-display font-extrabold text-white">The Active Work Lab</h2>
+                    </div>
+
+                    <!-- Layout: Pinned Anchor, Timer, and Novelty Subject Rotator -->
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+                        <!-- Left Layout: Timer Engine -->
+                        <div class="lg:col-span-8 bg-cozy-900/50 border border-cozy-800 rounded-3xl p-6 md:p-8 flex flex-col items-center justify-between min-h-[400px]">
+                            <div class="w-full flex justify-between items-center border-b border-cozy-800 pb-4 mb-6">
+                                <span id="timerModeText" class="text-xs font-mono text-cozy-mint flex items-center gap-1.5 uppercase tracking-wider">
+                                    <span class="w-2.5 h-2.5 rounded-full bg-cozy-mint animate-ping inline-block"></span>
+                                    Deep Focus Session
+                                </span>
+                                <div class="flex gap-1.5">
+                                    <button onclick="setTimerType('pomodoro')" id="btn-pomo" class="px-3 py-1 bg-cozy-800 text-white border border-cozy-700 rounded-lg text-[10px] font-semibold transition">Focus (25m)</button>
+                                    <button onclick="setTimerType('shortBreak')" id="btn-short" class="px-3 py-1 hover:bg-cozy-800 text-cozy-slate border border-transparent rounded-lg text-[10px] font-semibold transition">Short Break (5m)</button>
+                                    <button onclick="setTimerType('longBreak')" id="btn-long" class="px-3 py-1 hover:bg-cozy-800 text-cozy-slate border border-transparent rounded-lg text-[10px] font-semibold transition">Long Break (30m)</button>
+                                </div>
+                            </div>
+
+                            <!-- Real Pomodoro Counter -->
+                            <div class="text-center space-y-3 my-auto">
+                                <div class="text-7xl md:text-8xl font-mono font-extrabold text-white tracking-tight" id="pomoTimerDisplay">
+                                    25:00
+                                </div>
+                                <p class="text-xs text-cozy-slate" id="cycleTracker">Interval cycle: #1 of 4 blocks</p>
+                            </div>
+
+                            <!-- Buttons -->
+                            <div class="w-full flex flex-col sm:flex-row gap-3 pt-6 border-t border-cozy-800 mt-6">
+                                <button onclick="togglePomoTimer()" id="pomoPlayBtn" class="flex-1 px-6 py-3 bg-gradient-to-r from-cozy-mint to-teal-500 text-cozy-950 font-bold rounded-xl shadow-md hover:scale-[1.01] transition-all flex items-center justify-center gap-2">
+                                    <i data-lucide="play" class="w-4 h-4"></i> Start Session
+                                </button>
+                                <button onclick="resetPomoTimer()" class="px-5 py-3 bg-cozy-800 hover:bg-cozy-700 text-white rounded-xl text-xs font-semibold transition border border-cozy-700/50 flex items-center justify-center gap-1">
+                                    <i data-lucide="rotate-ccw" class="w-4 h-4"></i> Reset
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Right Layout: Novelty & Micro Actions -->
+                        <div class="lg:col-span-4 space-y-6">
+                            <!-- Visual Anchor Card -->
+                            <div class="bg-cozy-900/50 border border-cozy-800 p-6 rounded-3xl space-y-4">
+                                <div class="flex items-center gap-2">
+                                    <i data-lucide="anchor" class="w-4 h-4 text-cozy-peach"></i>
+                                    <h4 class="text-sm font-semibold text-white">Visual Anchor Pinned</h4>
+                                </div>
+                                <div class="space-y-3 text-xs bg-cozy-950/60 p-4 rounded-2xl border border-cozy-800">
+                                    <div>
+                                        <p class="text-[10px] font-mono text-cozy-slate uppercase">Topic Focus</p>
+                                        <p id="focusTabTopic" class="text-white font-medium italic mt-0.5">Define your Anchor inside Session Setup first.</p>
+                                    </div>
+                                    <div class="border-t border-cozy-800/80 pt-2 mt-2">
+                                        <p class="text-[10px] font-mono text-cozy-slate uppercase">Goal Target</p>
+                                        <p id="focusTabGoal" class="text-white font-medium mt-0.5">...</p>
+                                    </div>
+                                    <div class="border-t border-cozy-800/80 pt-2 mt-2">
+                                        <p class="text-[10px] font-mono text-cozy-slate uppercase">The Guiding Question</p>
+                                        <p id="focusTabQuestion" class="text-cozy-mint font-semibold mt-0.5">...</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Novelty Wheel / Subject Roll -->
+                            <div class="bg-cozy-900/50 border border-cozy-800 p-6 rounded-3xl space-y-4">
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center gap-2">
+                                        <i data-lucide="sparkles" class="w-4 h-4 text-cozy-mint"></i>
+                                        <h4 class="text-sm font-semibold text-white">Novelty Rotator</h4>
+                                    </div>
+                                    <button onclick="rollSubject()" class="text-xs text-cozy-mint font-bold hover:underline flex items-center gap-1">
+                                        <i data-lucide="shuffle" class="w-3.5 h-3.5"></i> Roll!
+                                    </button>
+                                </div>
+                                <p class="text-xs text-cozy-slate">Bored or lost interest? Introduce clean, localized novelty to restart dopamine production.</p>
+                                <div id="noveltyDisplay" class="bg-cozy-950/80 border border-cozy-800 p-4 rounded-2xl text-center text-sm font-semibold font-mono tracking-wide text-cozy-peach min-h-[50px] flex items-center justify-center">
+                                    Ready to spin subject list...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 3: CBT-ON-PAPER DISTRESS RESCUE -->
+                <div id="tab-cbt" class="tab-pane space-y-6 hidden">
+                    <div class="space-y-1">
+                        <span class="text-xs font-mono text-cozy-berry">COGNITIVE EMOTENCY VENT</span>
+                        <h2 class="text-2xl md:text-3xl font-display font-extrabold text-white">CBT-on-Paper Reset Tool</h2>
+                    </div>
+
+                    <div class="bg-cozy-900/50 border border-cozy-800 rounded-3xl p-6 md:p-8 space-y-6">
+                        <div class="space-y-2">
+                            <h3 class="text-lg font-semibold text-white">Feeling mental fog, zoning out, or scrolling helplessly?</h3>
+                            <p class="text-sm text-cozy-slate leading-relaxed">
+                                Avoid shaming your brain. Procrastination is an emotional regulation issue. When the mental load spikes, unpack the chaos below:
+                            </p>
+                        </div>
+
+                        <!-- Interactive 3 Column CBT Tool -->
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4">
+                            <div class="space-y-2 bg-cozy-800/20 border border-cozy-800 p-5 rounded-2xl">
+                                <label class="text-xs font-mono text-cozy-peach block flex items-center gap-1">
+                                    <span>Thoughts</span> <i data-lucide="help-circle" class="w-3.5 h-3.5"></i>
+                                </label>
+                                <p class="text-[10px] text-cozy-slate leading-tight">"This chapter is too giant. I won't ever finish."</p>
+                                <textarea id="cbtThoughts" class="w-full h-24 bg-cozy-950 border border-cozy-700/60 rounded-xl p-3 text-xs text-white focus:outline-none focus:border-cozy-peach resize-none" placeholder="Write down the raw thoughts running in your head..."></textarea>
+                            </div>
+                            <div class="space-y-2 bg-cozy-800/20 border border-cozy-800 p-5 rounded-2xl">
+                                <label class="text-xs font-mono text-cozy-berry block flex items-center gap-1">
+                                    <span>Emotions / Feelings</span> <i data-lucide="heart" class="w-3.5 h-3.5"></i>
+                                </label>
+                                <p class="text-[10px] text-cozy-slate leading-tight">"Restless, feeling lost, falling behind."</p>
+                                <textarea id="cbtEmotions" class="w-full h-24 bg-cozy-950 border border-cozy-700/60 rounded-xl p-3 text-xs text-white focus:outline-none focus:border-cozy-berry resize-none" placeholder="What emotions are you physically experiencing right now?"></textarea>
+                            </div>
+                            <div class="space-y-2 bg-cozy-800/20 border border-cozy-800 p-5 rounded-2xl">
+                                <label class="text-xs font-mono text-cozy-mint block flex items-center gap-1">
+                                    <span>Rational Response</span> <i data-lucide="shield-alert" class="w-3.5 h-3.5"></i>
+                                </label>
+                                <p class="text-[10px] text-cozy-slate leading-tight">"I only need to focus 5 minutes. The next line is easy."</p>
+                                <textarea id="cbtRational" class="w-full h-24 bg-cozy-950 border border-cozy-700/60 rounded-xl p-3 text-xs text-white focus:outline-none focus:border-cozy-mint resize-none" placeholder="Reframe. What is a kinder, minimal, tiny truth?"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-end pt-4">
+                            <button onclick="saveCBT()" class="px-6 py-2.5 bg-cozy-berry text-white font-bold text-xs rounded-xl shadow-lg shadow-cozy-berry/15 hover:scale-[1.02] transition flex items-center gap-2">
+                                <i data-lucide="flame" class="w-4 h-4"></i> Burn Anxiety & Log Insight
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- CBT Insight Log -->
+                    <div id="cbtLogContainer" class="hidden bg-cozy-900/50 border border-cozy-800 rounded-3xl p-6">
+                        <h4 class="text-xs font-mono text-cozy-slate mb-4">Saved Wisdom Log</h4>
+                        <div id="cbtLogs" class="space-y-3"></div>
+                    </div>
+                </div>
+
+                <!-- TAB 4: NIGHTLY WIN REINFORCEMENT -->
+                <div id="tab-reflection" class="tab-pane space-y-6 hidden">
+                    <div class="space-y-1">
+                        <span class="text-xs font-mono text-cozy-peach">RETROSPECTIVE REASSURANCE</span>
+                        <h2 class="text-2xl md:text-3xl font-display font-extrabold text-white">Nightly Win Tracker</h2>
+                    </div>
+
+                    <div class="bg-cozy-900/50 border border-cozy-800 rounded-3xl p-6 md:p-8 space-y-6">
+                        <div class="space-y-2">
+                            <h3 class="text-lg font-semibold text-white">Lock in positive achievements before sleeping</h3>
+                            <p class="text-sm text-cozy-slate">
+                                ADHD memory has a bias towards remembering only the failures of today. Write down one line per item to train progress memory and increase dopamine for tomorrow.
+                            </p>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                            <div class="space-y-2">
+                                <label class="text-xs font-mono text-cozy-slate block">1. WHAT WORKED BEST TODAY?</label>
+                                <textarea id="winWorked" class="w-full h-20 bg-cozy-950 border border-cozy-700/60 rounded-xl p-3 text-xs text-white focus:outline-none focus:border-cozy-peach" placeholder="e.g., Starting the 5-min timer while standing."></textarea>
+                            </div>
+                            <div class="space-y-2">
+                                <label class="text-xs font-mono text-cozy-slate block">2. WHAT DID I COMPLETE TODAY?</label>
+                                <textarea id="winCompleted" class="w-full h-20 bg-cozy-950 border border-cozy-700/60 rounded-xl p-3 text-xs text-white focus:outline-none focus:border-cozy-peach" placeholder="e.g., Read page 4-10 of my notes."></textarea>
+                            </div>
+                            <div class="space-y-2">
+                                <label class="text-xs font-mono text-cozy-slate block">3. TOMORROW'S 5-MINUTE FIRST TASK</label>
+                                <textarea id="winTomorrow" class="w-full h-20 bg-cozy-950 border border-cozy-700/60 rounded-xl p-3 text-xs text-white focus:outline-none focus:border-cozy-peach" placeholder="e.g., Open the next diagram and color it."></textarea>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-end border-t border-cozy-800 pt-6">
+                            <button onclick="saveNightlyWin()" class="px-6 py-2.5 bg-cozy-peach text-cozy-950 font-bold text-xs rounded-xl shadow-lg hover:scale-102 transition flex items-center gap-1.5">
+                                <i data-lucide="check-circle" class="w-4 h-4"></i> Lock Win Into Memory
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Historical Timeline of Success -->
+                    <div id="winsContainer" class="hidden bg-cozy-900/50 border border-cozy-800 rounded-3xl p-6">
+                        <h4 class="text-xs font-mono text-cozy-slate mb-4">Historical Memory Lane</h4>
+                        <div id="winsTimeline" class="space-y-4"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Global Footer / Core ADHD Reminders -->
+            <footer class="mt-12 pt-6 border-t border-cozy-900 max-w-4xl w-full mx-auto flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-cozy-slate">
+                <div class="flex items-center gap-2">
+                    <span class="inline-block w-2 h-2 rounded-full bg-cozy-peach"></span>
+                    <span>Procrastination is energy redirection—not moral failing.</span>
+                </div>
+                <div class="flex gap-4">
+                    <span class="text-cozy-mint">✓ Start Small</span>
+                    <span class="text-cozy-peach">✓ Stay Flexible</span>
+                    <span class="text-cozy-berry">✓ Feedback, Not Failure</span>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <!-- Web Audio API Synthesizer (Zero asset dependencies) -->
+    <script>
+        const audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+        
+        function playChime(success = true) {
+            const now = audioCtx.currentTime;
+            
+            if (success) {
+                // Happy Dopamine Ascent Ding
+                const osc1 = audioCtx.createOscillator();
+                const osc2 = audioCtx.createOscillator();
+                const gain = audioCtx.createGain();
+                
+                osc1.connect(gain);
+                osc2.connect(gain);
+                gain.connect(audioCtx.destination);
+                
+                osc1.type = 'sine';
+                osc2.type = 'triangle';
+                
+                osc1.frequency.setValueAtTime(523.25, now); // C5
+                osc1.frequency.exponentialRampToValueAtTime(783.99, now + 0.15); // G5
+                osc1.frequency.exponentialRampToValueAtTime(1046.50, now + 0.3); // C6
+                
+                osc2.frequency.setValueAtTime(261.63, now); // C4
+                osc2.frequency.setValueAtTime(523.25, now + 0.15);
+                
+                gain.gain.setValueAtTime(0.08, now);
+                gain.gain.exponentialRampToValueAtTime(0.001, now + 0.5);
+                
+                osc1.start(now);
+                osc2.start(now);
+                osc1.stop(now + 0.5);
+                osc2.stop(now + 0.5);
+            } else {
+                // Soft focus tick
+                const osc = audioCtx.createOscillator();
+                const gain = audioCtx.createGain();
+                osc.connect(gain);
+                gain.connect(audioCtx.destination);
+                osc.type = 'sine';
+                osc.frequency.setValueAtTime(329.63, now); // E4
+                gain.gain.setValueAtTime(0.04, now);
+                gain.gain.exponentialRampToValueAtTime(0.001, now + 0.1);
+                osc.start(now);
+                osc.stop(now + 0.1);
+            }
+        }
+    </script>
+
+    <!-- App State and Interaction Logic -->
+    <script>
+        // Tab system
+        function switchTab(tabId) {
+            document.querySelectorAll('.tab-pane').forEach(el => el.classList.add('hidden'));
+            document.getElementById(`tab-${tabId}`).classList.remove('hidden');
+
+            // Update Navigation highlights
+            const navIds = ['wizard', 'focus', 'cbt', 'reflection'];
+            navIds.forEach(id => {
+                const element = document.getElementById(`nav-${id}`);
+                if (id === tabId) {
+                    element.classList.add('bg-cozy-800', 'text-white');
+                    element.classList.remove('hover:bg-cozy-800/50', 'text-cozy-slate');
+                } else {
+                    element.classList.remove('bg-cozy-800', 'text-white');
+                    element.classList.add('hover:bg-cozy-800/50', 'text-cozy-slate');
+                }
+            });
+            playChime(false);
+        }
+
+        // Workspace status badge trigger
+        function toggleWorkspaceStatus() {
+            const checked = document.getElementById('deskCheck').checked;
+            const badge = document.getElementById('workspaceBadge');
+            if (checked) {
+                badge.classList.remove('hidden');
+                confetti({
+                    particleCount: 20,
+                    spread: 40,
+                    origin: { y: 0.1, x: 0.85 },
+                    colors: ['#73DACA', '#9ECE6A']
+                });
+                playChime(true);
+            } else {
+                badge.classList.add('hidden');
+            }
+        }
+
+        /* ---------------------------------------------------- */
+        /* WIZARD LOGIC                                         */
+        /* ---------------------------------------------------- */
+        let currentStep = 1;
+        const totalSteps = 5;
+
+        function updateWizardUI() {
+            document.querySelectorAll('.wizard-step').forEach(el => el.classList.add('hidden'));
+            document.getElementById(`step-${currentStep}-content`).classList.remove('hidden');
+            document.getElementById('currentStepText').innerText = currentStep;
+
+            // Update Progress Bar
+            const percent = (currentStep / totalSteps) * 100;
+            document.getElementById('wizardProgressBar').style.width = `${percent}%`;
+
+            // Update buttons
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+
+            if (currentStep === 1) {
+                prevBtn.classList.add('opacity-50', 'cursor-not-allowed');
+                prevBtn.disabled = true;
+            } else {
+                prevBtn.classList.remove('opacity-50', 'cursor-not-allowed');
+                prevBtn.disabled = false;
+            }
+
+            if (currentStep === totalSteps) {
+                nextBtn.innerHTML = `<span>Finish Setup & Launch Engine</span> <i data-lucide="zap" class="w-4 h-4"></i>`;
+                nextBtn.classList.replace('bg-cozy-peach', 'bg-cozy-mint');
+            } else {
+                nextBtn.innerHTML = `<span>Continue to Step ${currentStep + 1}</span> <i data-lucide="arrow-right" class="w-4 h-4"></i>`;
+                nextBtn.classList.replace('bg-cozy-mint', 'bg-cozy-peach');
+            }
+            lucide.createIcons();
+        }
+
+        function nextStep() {
+            if (currentStep === 3) {
+                saveAnchorData();
+            }
+            if (currentStep < totalSteps) {
+                currentStep++;
+                updateWizardUI();
+                playChime(false);
+            } else {
+                // Launch Active Mode
+                switchTab('focus');
+                confetti({
+                    particleCount: 80,
+                    spread: 80,
+                    origin: { y: 0.6 }
+                });
+                playChime(true);
+            }
+        }
+
+        function prevStep() {
+            if (currentStep > 1) {
+                currentStep--;
+                updateWizardUI();
+                playChime(false);
+            }
+        }
+
+        /* STEP 1: Breathing bubble state machine */
+        let breathingInterval = null;
+        let breatheTimeRemaining = 120; // 2 minutes
+        let isBreathing = false;
+
+        function toggleBreathing() {
+            const btn = document.getElementById('breatheBtn');
+            const display = document.getElementById('breatheTimer');
+            const word = document.getElementById('breatheText');
+
+            if (isBreathing) {
+                clearInterval(breathingInterval);
+                btn.innerText = "Resume Breathing Aid";
+                isBreathing = false;
+            } else {
+                isBreathing = true;
+                btn.innerText = "Pause Breathe Timer";
+                
+                // Breath cycle loop (ADHD paced: short, easy cues)
+                let breathePhase = 0; 
+                breathingInterval = setInterval(() => {
+                    breatheTimeRemaining--;
+                    
+                    const mins = Math.floor(breatheTimeRemaining / 60);
+                    const secs = breatheTimeRemaining % 60;
+                    display.innerText = `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+
+                    // Update Text Phrase every 4 seconds
+                    breathePhase = (breathePhase + 1) % 8;
+                    if (breathePhase < 4) {
+                        word.innerText = "Inhale...";
+                    } else {
+                        word.innerText = "Exhale...";
+                    }
+
+                    if (breatheTimeRemaining <= 0) {
+                        clearInterval(breathingInterval);
+                        display.innerText = "0:00";
+                        word.innerText = "Calmed.";
+                        btn.innerText = "Breathing Completed";
+                        confetti({ particleCount: 30, spread: 50 });
+                        playChime(true);
+                    }
+                }, 1000);
+            }
+        }
+
+        function checkStep1Progress() {
+            const checkedCount = document.querySelectorAll('.step1-check:checked').length;
+            if (checkedCount === 3) {
+                confetti({ particleCount: 15, spread: 30, origin: { y: 0.8 } });
+                playChime(true);
+            }
+        }
+
+        /* STEP 2: 5-Minute Launch Timer */
+        let launchInterval = null;
+        let launchTime = 300; // 5 mins
+        let isLaunchRunning = false;
+
+        function toggleLaunchTimer() {
+            const btn = document.getElementById('launchTimerBtn');
+            const display = document.getElementById('launchTimerDisplay');
+
+            if (isLaunchRunning) {
+                clearInterval(launchInterval);
+                btn.innerHTML = `<i data-lucide="play" class="w-4 h-4"></i> Start Launch Window`;
+                isLaunchRunning = false;
+            } else {
+                isLaunchRunning = true;
+                btn.innerHTML = `<i data-lucide="pause" class="w-4 h-4"></i> Pause Launch`;
+                launchInterval = setInterval(() => {
+                    launchTime--;
+                    const mins = Math.floor(launchTime / 60);
+                    const secs = launchTime % 60;
+                    display.innerText = `${mins < 10 ? '0' : ''}${mins}:${secs < 10 ? '0' : ''}${secs}`;
+
+                    if (launchTime <= 0) {
+                        clearInterval(launchInterval);
+                        isLaunchRunning = false;
+                        display.innerText = "00:00";
+                        playChime(true);
+                        confetti({ particleCount: 100, spread: 100 });
+                        
+                        // Ask continuation query
+                        if(confirm("5 Minute window closed! Momentum check: Are you okay to go another 5 minutes?")) {
+                            launchTime = 300;
+                            display.innerText = "05:00";
+                            toggleLaunchTimer();
+                        } else {
+                            alert("No worries! Stand, stretch for 2 minutes, and then hit Reset to launch again.");
+                            launchTime = 300;
+                            display.innerText = "05:00";
+                        }
+                    }
+                    lucide.createIcons();
+                }, 1000);
+            }
+            lucide.createIcons();
+        }
+
+        function resetLaunchTimer() {
+            clearInterval(launchInterval);
+            isLaunchRunning = false;
+            launchTime = 300;
+            document.getElementById('launchTimerDisplay').innerText = "05:00";
+            document.getElementById('launchTimerBtn').innerHTML = `<i data-lucide="play" class="w-4 h-4"></i> Start Launch Window`;
+            lucide.createIcons();
+        }
+
+        /* STEP 3: Anchor Data logic */
+        function saveAnchorData() {
+            const topic = document.getElementById('anchorTopic').value || "No Subject Specified";
+            const goal = document.getElementById('anchorGoal').value || "No specific goal written";
+            const question = document.getElementById('anchorQuestion').value || "No focus question outlined";
+
+            // Pin card in sidebar
+            document.getElementById('pinnedTopic').innerText = topic;
+            document.getElementById('pinnedQuestion').innerText = question;
+            document.getElementById('pinnedAnchorCard').classList.remove('hidden');
+
+            // Update Work tab variables
+            document.getElementById('focusTabTopic').innerText = topic;
+            document.getElementById('focusTabGoal').innerText = goal;
+            document.getElementById('focusTabQuestion').innerText = question;
+        }
+
+        /* STEP 5 & ACTIVE ZONE: Novelty subject list builder */
+        let subjects = [];
+        function addSubject() {
+            const input = document.getElementById('subjectInput');
+            const topic = input.value.trim();
+            if (topic) {
+                subjects.push(topic);
+                input.value = "";
+                renderSubjects();
+                playChime(false);
+            }
+        }
+
+        function renderSubjects() {
+            const container = document.getElementById('subjectList');
+            if (subjects.length === 0) {
+                container.innerHTML = `<span class="text-xs text-cozy-slate italic">No subjects added yet. Add some for randomized choice.</span>`;
+                return;
+            }
+            container.innerHTML = subjects.map((sub, idx) => `
+                <span class="inline-flex items-center gap-1.5 bg-cozy-800 text-white text-xs px-3 py-1.5 rounded-xl border border-cozy-700">
+                    ${sub}
+                    <button onclick="removeSubject(${idx})" class="hover:text-cozy-berry"><i data-lucide="x" class="w-3.5 h-3.5"></i></button>
+                </span>
+            `).join('');
+            lucide.createIcons();
+        }
+
+        function removeSubject(idx) {
+            subjects.splice(idx, 1);
+            renderSubjects();
+        }
+
+        function rollSubject() {
+            const disp = document.getElementById('noveltyDisplay');
+            if (subjects.length === 0) {
+                disp.innerText = "Add focus subjects in Setup first!";
+                return;
+            }
+
+            // Gamified roulette effect
+            let ticks = 0;
+            const interval = setInterval(() => {
+                const randomVal = subjects[Math.floor(Math.random() * subjects.length)];
+                disp.innerText = `🎲 Rolling: ${randomVal}`;
+                playChime(false);
+                ticks++;
+                if (ticks > 6) {
+                    clearInterval(interval);
+                    const finalVal = subjects[Math.floor(Math.random() * subjects.length)];
+                    disp.innerText = `🎯 Focus On: ${finalVal}`;
+                    confetti({ particleCount: 20, spread: 50 });
+                    playChime(true);
+                }
+            }, 150);
+        }
+
+        /* ---------------------------------------------------- */
+        /* DEEP WORK ENGINE TAB TIMER                           */
+        /* ---------------------------------------------------- */
+        let pomoInterval = null;
+        let pomoTimeRemaining = 1500; // 25 minutes default
+        let isPomoRunning = false;
+        let pomoSessionCount = 1;
+        let currentTimerMode = 'pomodoro'; // pomodoro, shortBreak, longBreak
+
+        const timerSettings = {
+            pomodoro: { seconds: 1500, title: "Deep Focus Session", color: 'text-cozy-mint' },
+            shortBreak: { seconds: 300, title: "Short Recharge Break", color: 'text-cozy-peach' },
+            longBreak: { seconds: 1800, title: "Long Break Recovery", color: 'text-cozy-berry' }
+        };
+
+        function setTimerType(type) {
+            clearInterval(pomoInterval);
+            isPomoRunning = false;
+            currentTimerMode = type;
+            pomoTimeRemaining = timerSettings[type].seconds;
+
+            // Highlight buttons
+            const buttons = {
+                pomodoro: document.getElementById('btn-pomo'),
+                shortBreak: document.getElementById('btn-short'),
+                longBreak: document.getElementById('btn-long')
+            };
+
+            Object.keys(buttons).forEach(key => {
+                if (key === type) {
+                    buttons[key].className = "px-3 py-1 bg-cozy-800 text-white border border-cozy-700 rounded-lg text-[10px] font-semibold transition";
+                } else {
+                    buttons[key].className = "px-3 py-1 hover:bg-cozy-800 text-cozy-slate border border-transparent rounded-lg text-[10px] font-semibold transition";
+                }
+            });
+
+            document.getElementById('timerModeText').innerHTML = `
+                <span class="w-2.5 h-2.5 rounded-full bg-current animate-pulse inline-block"></span>
+                ${timerSettings[type].title}
+            `;
+            document.getElementById('timerModeText').className = `text-xs font-mono flex items-center gap-1.5 uppercase tracking-wider ${timerSettings[type].color}`;
+
+            updatePomoDisplay();
+            document.getElementById('pomoPlayBtn').innerHTML = `<i data-lucide="play" class="w-4 h-4"></i> Start Session`;
+            lucide.createIcons();
+            playChime(false);
+        }
+
+        function updatePomoDisplay() {
+            const display = document.getElementById('pomoTimerDisplay');
+            const mins = Math.floor(pomoTimeRemaining / 60);
+            const secs = pomoTimeRemaining % 60;
+            display.innerText = `${mins < 10 ? '0' : ''}${mins}:${secs < 10 ? '0' : ''}${secs}`;
+        }
+
+        function togglePomoTimer() {
+            const btn = document.getElementById('pomoPlayBtn');
+            if (isPomoRunning) {
+                clearInterval(pomoInterval);
+                isPomoRunning = false;
+                btn.innerHTML = `<i data-lucide="play" class="w-4 h-4"></i> Resume Session`;
+            } else {
+                isPomoRunning = true;
+                btn.innerHTML = `<i data-lucide="pause" class="w-4 h-4"></i> Pause Session`;
+                pomoInterval = setInterval(() => {
+                    pomoTimeRemaining--;
+                    updatePomoDisplay();
+
+                    if (pomoTimeRemaining <= 0) {
+                        clearInterval(pomoInterval);
+                        isPomoRunning = false;
+                        playChime(true);
+                        confetti({ particleCount: 120, spread: 80 });
+
+                        if (currentTimerMode === 'pomodoro') {
+                            alert("Time's up! Stand up immediately. Sip water, stretch, change your visual field.");
+                            pomoSessionCount++;
+                            document.getElementById('cycleTracker').innerText = `Interval cycle: #${pomoSessionCount} of 4 blocks`;
+                            setTimerType('shortBreak');
+                        } else {
+                            alert("Break over! Let's get back in for another short 25-minute effort.");
+                            setTimerType('pomodoro');
+                        }
+                    }
+                }, 1000);
+            }
+            lucide.createIcons();
+        }
+
+        function resetPomoTimer() {
+            clearInterval(pomoInterval);
+            isPomoRunning = false;
+            pomoTimeRemaining = timerSettings[currentTimerMode].seconds;
+            updatePomoDisplay();
+            document.getElementById('pomoPlayBtn').innerHTML = `<i data-lucide="play" class="w-4 h-4"></i> Start Session`;
+            lucide.createIcons();
+        }
+
+
+        /* ---------------------------------------------------- */
+        /* CBT ON PAPER                                         */
+        /* ---------------------------------------------------- */
+        let savedCBTLogs = JSON.parse(localStorage.getItem('focus_cbt_logs')) || [];
+
+        function saveCBT() {
+            const thoughts = document.getElementById('cbtThoughts').value.trim();
+            const emotions = document.getElementById('cbtEmotions').value.trim();
+            const rational = document.getElementById('cbtRational').value.trim();
+
+            if (!thoughts || !rational) {
+                alert("Please fill out at least the Thought and Rational Response to proceed.");
+                return;
+            }
+
+            const logEntry = {
+                date: new Date().toLocaleDateString(),
+                thoughts,
+                emotions,
+                rational
+            };
+
+            savedCBTLogs.unshift(logEntry);
+            localStorage.setItem('focus_cbt_logs', JSON.stringify(savedCBTLogs));
+
+            // Visual Clear Action
+            document.getElementById('cbtThoughts').value = "";
+            document.getElementById('cbtEmotions').value = "";
+            document.getElementById('cbtRational').value = "";
+
+            renderCBTLogs();
+            confetti({
+                particleCount: 50,
+                spread: 100,
+                colors: ['#F7768E', '#9ECE6A']
+            });
+            playChime(true);
+        }
+
+        function renderCBTLogs() {
+            const container = document.getElementById('cbtLogs');
+            const parent = document.getElementById('cbtLogContainer');
+            
+            if (savedCBTLogs.length === 0) {
+                parent.classList.add('hidden');
+                return;
+            }
+            parent.classList.remove('hidden');
+
+            container.innerHTML = savedCBTLogs.map(log => `
+                <div class="bg-cozy-950 p-4 rounded-2xl border border-cozy-800 text-xs space-y-2">
+                    <div class="flex justify-between text-cozy-slate font-mono text-[9px]">
+                        <span>COGNITIVE SWAP RECONSTRUCTION</span>
+                        <span>${log.date}</span>
+                    </div>
+                    <div>
+                        <span class="text-cozy-berry font-semibold block">ANXIOUS LOAD TRIGGER:</span>
+                        <p class="text-cozy-slate italic">"${log.thoughts}"</p>
+                    </div>
+                    <div class="border-t border-cozy-900 pt-1 mt-1">
+                        <span class="text-cozy-mint font-semibold block">RATIONAL FOCUS ACTION:</span>
+                        <p class="text-white">"${log.rational}"</p>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+
+        /* ---------------------------------------------------- */
+        /* RETROSPECTIVE WIN TRACKER                            */
+        /* ---------------------------------------------------- */
+        let savedWins = JSON.parse(localStorage.getItem('focus_wins')) || [];
+
+        function saveNightlyWin() {
+            const worked = document.getElementById('winWorked').value.trim();
+            const completed = document.getElementById('winCompleted').value.trim();
+            const tomorrow = document.getElementById('winTomorrow').value.trim();
+
+            if (!completed) {
+                alert("Write down at least one thing you completed! No accomplishment is too small.");
+                return;
+            }
+
+            const winEntry = {
+                date: new Date().toLocaleDateString(),
+                worked,
+                completed,
+                tomorrow
+            };
+
+            savedWins.unshift(winEntry);
+            localStorage.setItem('focus_wins', JSON.stringify(savedWins));
+
+            // Reset inputs
+            document.getElementById('winWorked').value = "";
+            document.getElementById('winCompleted').value = "";
+            document.getElementById('winTomorrow').value = "";
+
+            renderWins();
+            confetti({
+                particleCount: 150,
+                spread: 120,
+                origin: { y: 0.6 }
+            });
+            playChime(true);
+        }
+
+        function renderWins() {
+            const container = document.getElementById('winsTimeline');
+            const parent = document.getElementById('winsContainer');
+
+            if (savedWins.length === 0) {
+                parent.classList.add('hidden');
+                return;
+            }
+            parent.classList.remove('hidden');
+
+            container.innerHTML = savedWins.map(win => `
+                <div class="bg-cozy-950 p-5 rounded-2xl border border-cozy-850 space-y-3">
+                    <div class="flex justify-between items-center text-cozy-slate font-mono text-[10px]">
+                        <span class="text-cozy-peach font-semibold">🔒 POSITIVE WIN RECORD</span>
+                        <span>${win.date}</span>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+                        <div class="space-y-1">
+                            <span class="text-cozy-slate font-mono uppercase text-[9px]">Completed Today</span>
+                            <p class="text-white font-medium">${win.completed}</p>
+                        </div>
+                        <div class="space-y-1">
+                            <span class="text-cozy-slate font-mono uppercase text-[9px]">What Worked Best</span>
+                            <p class="text-white">${win.worked || 'Continuous focus blocks'}</p>
+                        </div>
+                        <div class="space-y-1">
+                            <span class="text-cozy-slate font-mono uppercase text-[9px]">Tomorrow's 5-Min Start</span>
+                            <p class="text-cozy-mint font-medium">${win.tomorrow || 'Write down tomorrow\'s task.'}</p>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Initialize state
+        window.onload = () => {
+            lucide.createIcons();
+            renderSubjects();
+            renderCBTLogs();
+            renderWins();
+        }
+    </script>
+</body>
+</html>
