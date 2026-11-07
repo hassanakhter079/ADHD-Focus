@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Focus Flow // ADHD Study Companion</title>
+    <script src="https://hassanakhter079.github.io/After-Salah-Zikr/cloud-sync.js" data-app="adhd-focus"></script>
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Fonts: Lexend (ADHD-friendly reading) & Syne (Modern headings) -->
@@ -1161,6 +1162,11 @@
             renderCBTLogs();
             renderWins();
         }
+        window.addEventListener('cloud-sync-applied', () => {
+            renderSubjects();
+            renderCBTLogs();
+            renderWins();
+        });
     </script>
 </body>
 </html>
